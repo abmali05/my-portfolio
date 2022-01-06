@@ -1,0 +1,139 @@
+body{
+     font-family: 'Oxygen', sans-serif;;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.flexible-container{
+    display:flex;
+    margin-bottom: 80px;
+}
+
+.equal-width{
+    width: 50%;
+    padding-left: 1%;
+}
+.equal-width img{
+    width: 80%;
+
+}
+.equal-width p{
+    margin-bottom: 30px;
+}
+
+a{
+    
+    text-decoration: none;
+   background-color:#ff0055;
+    padding: 10px 40px;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+
+.text-center{
+    padding: 100px 0;
+}
+
+
+.mission-container-flex{
+    display:flex;
+    margin-bottom: 100px;
+}
+
+.mission-area-head h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mission-area-box{
+    width: 33.33%;
+    padding: 3%;
+    margin: 1%;
+    background-color: brown;
+    
+}
+
+#mission-first{
+    background-color: #EDF5F6;
+    border-radius: 40px;
+}
+
+#mission-second{
+    background-color: #FFEEEE;
+    border-radius: 40px;
+}
+
+#mission-third{
+    background-color: #FFF4D6;
+    border-radius: 40px;
+}
+
+.mission-area-box img{
+    width: 30%;
+}
+h3{
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
+    background-color:#808080;
+    padding: 30px;
+    color: white;
+}
+
+section{
+    margin: 0 100px;
+}
+
+.client-background{
+    background-color: #eee;
+   
+    
+}
+
+
+.client-area{
+    padding: 10px 0;
+}
+.client-area h1{
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+.client-feedback{
+    display: flex;
+    padding-bottom: 30px;
+    
+}
+.client-feedback img{
+    float: left;
+    padding-right: 20px;
+
+}
+.client-feedback hr{
+    margin: 50px 30px 35px 30px;
+   
+}
+
+.client-half{
+    width: 50%;
+    padding-left: 1%;
+   }
+
+   .vertical-line{
+       margin-top: 10px;
+       margin-right: 10px;
+       border-radius: 5px;
+    width: 5px; /* Line width */
+    background-color: #ff0055; /* Line color */
+    height: 100px; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+  }
